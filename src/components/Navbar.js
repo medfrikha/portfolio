@@ -1,12 +1,12 @@
 import React from "react";
-import {  NavLink } from "react-router-dom"
+import {  Link, NavLink } from "react-router-dom"
 
 function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
         <div className="container-fluid">
-          <NavLink to="/" className="navbar-brand">Mohamed Frikha</NavLink>
+          <Link to="/" className="navbar-brand">Mohamed Frikha</Link>
           <button
             className="navbar-toggler"
             type="button"
