@@ -13,6 +13,12 @@ const PROJECTS = [
     url: "https://medfrikha.github.io/business-land/",
     githubId: "business-land",
   },
+  {
+    title: "portfolio",
+    description: "Web page developed with React js ",
+    url: "https://mohamed-frikha-portfolio.vercel.app/",
+    githubId: "portfolio",
+  }
 ];
 
 function Projects() {
